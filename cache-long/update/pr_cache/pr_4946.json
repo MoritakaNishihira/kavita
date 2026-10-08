@@ -1,0 +1,7 @@
+{
+  "Title": "A few bug fixes",
+  "Body": "# Changed\r\n- Changed: The rating prompt will only be shown when the series is complete or cancelled\r\n\r\n# Fixed\r\n- Fixed: Fixed dashboard streams loaded with an offset (develop)\r\n- Fixed: Fixed search results taking fake volumes/chapters into account when displaying series size (develop)\r\n- Fixed: Fixed the manga reader not always correctly closing when dismissing the rating modal (develop)\r\n- Fixed: Fixed some forms across the web app not working (develop)\r\n- Fixed: Fixed OnDeckProgressDays and OnDeckUpdateDays for users created in the last nightly (develop)\r\n- Fixed: Fixed matched series page loading (develop)\r\n- Fixed: Fixed some buttons in the CBL import modal not working\r\n- Fixed: Fixed a wrong log message when syncing users from OIDC\r\n- Fixed: Fixed sometimes not being able to delete users under very specific circumstances\r\n- Fixed: Likely fixed the book reader theme being overwritten by theme updates due to token refreshes (Closes #4942)\r\n- Fixed: Fix incorrect return type for /api/Library/delete-multiple (Closes #4940)",
+  "Html_Url": "https://github.com/Kareadita/Kavita/pull/4946",
+  "Merged_At": "2026-09-24T12:57:29Z",
+  "Number": 4946
+}

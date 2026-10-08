@@ -1,0 +1,18 @@
+services:
+  kavita:
+    image: lscr.io/linuxserver/kavita:latest
+    container_name: kavita
+
+    environment:
+      - PUID=1026
+      - PGID=101
+      - TZ=Asia/Tokyo
+
+    volumes:
+      - /volume1/docker/kavita:/config
+      - /volume1/Datas/05_Medias/Comics:/data
+
+    ports:
+      - 5100:5000
+
+    restart: unless-stopped
