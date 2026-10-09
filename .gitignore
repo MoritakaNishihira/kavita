@@ -1,0 +1,5 @@
+# Keep only project instructions and the service definition under version control.
+/*
+!/.gitignore
+!/AGENTS.md
+!/compose.yaml

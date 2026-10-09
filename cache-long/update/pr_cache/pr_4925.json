@@ -1,7 +1,0 @@
-{
-  "Title": "Improved chapter matching",
-  "Body": "# Added\r\n- Added: Added support for updating volume or chapters markers and the scanner not loosing progress. This requires the parsed marker to stay fixed (Vol. 1 -\u003E Vol. 1 Ch. 1 or Vol 1 Ch 1 -\u003E Ch 1) and no existing marker on disk (ie Ch 1 -\u003E Vol 1 Ch 1 can\u0027t have an existing v1c1 on disk)\r\n\r\n# Changed\r\n- Changed: Improved logging when no meaningful information could be parsed from a file.\r\n- Changed: Improved logging when a DbUpdateConcurrencyException occurs to help us debug in the future.\r\n\r\n# Fixed\r\n- Fixed: Fixed chapters sometimes not being removed correctly after a scan when metadata got updated. (Fixes #4831)\r\n- Fixed: Fixed skipped files (covers) created media issues. (Fixes #4906)\r\n- Fixed: (Kavita\u002B) Fixed chapter count being used for 1 book books. (Fixes #4916)\r\n- Fixed: Fixed Kavita\u002B metadata sometimes being lost when running metadata mappings.\r\n- Fixed: Fixed an issue where deleting a library would fail due to FK when a chapter had an external review/rating.\r\n",
-  "Html_Url": "https://github.com/Kareadita/Kavita/pull/4925",
-  "Merged_At": "2026-09-20T17:47:14Z",
-  "Number": 4925
-}

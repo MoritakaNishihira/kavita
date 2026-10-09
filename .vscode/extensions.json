@@ -1,7 +1,0 @@
-{
-  "recommendations": [
-    "ms-azuretools.vscode-docker",
-    "redhat.vscode-yaml",
-    "matthewpi.caddyfile-support"
-  ]
-}
