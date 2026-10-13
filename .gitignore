@@ -1,7 +1,9 @@
-# Keep project instructions, service definition, and ComicInfo metadata under version control.
+﻿# Keep project instructions, service definition, ComicInfo metadata, and cover art under version control.
 /*
 !/.gitignore
 !/AGENTS.md
 !/compose.yaml
 !/comicinfo/
 !/comicinfo/**
+!/covers/
+!/covers/**
